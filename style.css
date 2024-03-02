@@ -96,6 +96,31 @@
   gap: 5px;
 }
 
+.div1 {
+  background-color: #fbb46311;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #fbb46325;
+}
+
+.div1 > img {
+  width: 4%;
+}
+
+.div2 {
+  background-color: #29cdf633;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #29cdf66b;
+}
+
+.div3 {
+  background-color: #e9444409;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #e944443d;
+}
+
 @media screen and (max-width: 600px) {
   .nav-list {
     display: none;
