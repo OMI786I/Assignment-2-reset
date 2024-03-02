@@ -256,6 +256,9 @@
     width: 100%;
     margin: auto;
   }
+  .Newsletter-section {
+    flex-direction: column;
+  }
 }
 
 /*tablets*/
