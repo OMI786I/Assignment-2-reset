@@ -148,6 +148,17 @@
   padding: 20px;
   border-radius: 10px;
 }
+.Deals-section-img-text2 {
+  position: absolute;
+  top: 15%;
+
+  left: 5%;
+  background-color: rgba(253, 253, 253, 0.646);
+  color: black;
+  width: 50%;
+  padding: 20px;
+  border-radius: 10px;
+}
 
 @media screen and (max-width: 600px) {
   .nav-list {
