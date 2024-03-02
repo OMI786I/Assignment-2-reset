@@ -70,6 +70,21 @@
   align-items: center;
 }
 
+.destination-section-image {
+  width: 100%;
+}
+.destination-section-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.destination-section-image-box {
+  position: relative;
+}
+
 @media screen and (max-width: 600px) {
   .nav-list {
     display: none;
