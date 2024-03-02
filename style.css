@@ -72,6 +72,7 @@
 
 .destination-section-image {
   width: 100%;
+  height: 100%;
 }
 .destination-section-text {
   position: absolute;
@@ -83,6 +84,13 @@
 
 .destination-section-image-box {
   position: relative;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 5px;
 }
 
 @media screen and (max-width: 600px) {
