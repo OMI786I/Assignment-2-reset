@@ -134,6 +134,11 @@
   gap: 10px;
 }
 
+.Deals-and-Discount-Sections {
+  text-align: center;
+  margin-top: 40px;
+}
+
 .Deals-section-img-box {
   position: relative;
 }
@@ -159,8 +164,13 @@
   padding: 20px;
   border-radius: 10px;
 }
-
+.btn2 {
+  width: 100px;
+}
 @media screen and (max-width: 600px) {
+  * {
+    padding: 0px;
+  }
   .nav-list {
     display: none;
   }
@@ -186,6 +196,28 @@
     display: flex;
     flex-direction: column;
   }
+  .Deals-section-img-text {
+    font-size: 7px;
+    width: 90%;
+    right: 0;
+    left: 0;
+    padding: 0px;
+    margin: auto;
+  }
+  .Deals-section-img-text2 {
+    font-size: 7px;
+    width: 90%;
+    right: 0;
+    left: 0;
+    padding: 0px;
+    margin: auto;
+  }
+  .btn2 {
+    width: 100px;
+  }
+  .btn-text {
+    width: 5px;
+  }
 }
 
 /*tablets*/
@@ -202,6 +234,22 @@
   .div2,
   .div3 {
     grid-area: auto;
+  }
+  .Deals-section-img-text {
+    font-size: 13px;
+    width: 90%;
+    right: 0;
+    left: 0;
+    padding: 0px;
+    margin: auto;
+  }
+  .Deals-section-img-text2 {
+    font-size: 13px;
+    width: 90%;
+    right: 0;
+    left: 0;
+    padding: 0px;
+    margin: auto;
   }
 }
 
