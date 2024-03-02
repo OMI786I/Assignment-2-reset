@@ -198,6 +198,16 @@
   left: 50%;
   transform: rotate(-20deg);
 }
+
+.footer {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(221, 219, 219);
+  padding: 20px;
+}
 @media screen and (max-width: 600px) {
   * {
     padding: 0px;
