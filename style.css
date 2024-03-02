@@ -63,6 +63,13 @@
   height: 80%;
 }
 
+.popular-tours-section {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+
 @media screen and (max-width: 600px) {
   .nav-list {
     display: none;
@@ -77,6 +84,9 @@
   .button {
     margin: auto;
     width: 85%;
+  }
+  .popular-tours-section {
+    flex-direction: column;
   }
 }
 
