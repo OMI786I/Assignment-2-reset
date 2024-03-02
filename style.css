@@ -167,6 +167,14 @@
 .btn2 {
   width: 100px;
 }
+
+.lost-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  gap: 10px;
+}
 @media screen and (max-width: 600px) {
   * {
     padding: 0px;
@@ -218,6 +226,13 @@
   .btn-text {
     width: 5px;
   }
+  .lost-section {
+    flex-direction: column;
+  }
+  .iframe {
+    width: 100%;
+    margin: auto;
+  }
 }
 
 /*tablets*/
@@ -250,6 +265,9 @@
     left: 0;
     padding: 0px;
     margin: auto;
+  }
+  .lost-section {
+    flex-direction: column;
   }
 }
 
