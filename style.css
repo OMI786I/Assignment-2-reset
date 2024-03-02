@@ -95,12 +95,16 @@
   grid-template-rows: repeat(3, 1fr);
   gap: 5px;
 }
-
+.Why-choose-us-section {
+  text-align: center;
+  margin-top: 20px;
+}
 .div1 {
   background-color: #fbb46311;
   padding: 10px;
   border-radius: 10px;
   border: 1px solid #fbb46325;
+  grid-area: 1 / 1 / 2 / 5;
 }
 
 .div1 > img {
@@ -112,6 +116,7 @@
   padding: 10px;
   border-radius: 10px;
   border: 1px solid #29cdf66b;
+  grid-area: 1 / 5 / 2 / 9;
 }
 
 .div3 {
@@ -119,6 +124,14 @@
   padding: 10px;
   border-radius: 10px;
   border: 1px solid #e944443d;
+  grid-area: 2 / 3 / 3 / 7;
+}
+
+.grid-section-2 {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
 }
 
 @media screen and (max-width: 600px) {
