@@ -46,4 +46,26 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+
+  width: 100%;
+}
+
+.input-first-banner {
+  padding: 8px;
+  border-radius: 10px;
+}
+.banner-1-inputs {
+  background-color: rgb(255, 255, 255, 0.3);
+  width: 55%;
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+.button {
+  padding: 10px;
+  border-radius: 7px;
+  background-color: #ff5400;
+  color: white;
+  border: none;
+  cursor: pointer;
 }
