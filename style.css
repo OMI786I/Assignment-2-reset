@@ -1,3 +1,27 @@
 * {
   font-family: Arial, sans-serif;
+  padding: 3px;
+}
+
+.orange {
+  color: #ff5400;
+}
+
+.navbar {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .nav-list {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .nav-icon {
+    display: none;
+  }
 }
