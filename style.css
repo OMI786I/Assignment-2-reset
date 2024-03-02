@@ -69,7 +69,10 @@
   justify-content: space-between;
   align-items: center;
 }
-
+.destination-section {
+  text-align: center;
+  margin-top: 10px;
+}
 .destination-section-image {
   width: 100%;
   height: 100%;
@@ -110,6 +113,17 @@
   }
   .popular-tours-section {
     flex-direction: column;
+  }
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/*tablets*/
+@media screen and (min-width: 600px) and (max-width: 992px) {
+  .grid-container {
+    display: grid;
   }
 }
 
